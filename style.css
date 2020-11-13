@@ -1,0 +1,37 @@
+.container {
+  margin: auto;
+  padding: 90px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  display: inline-block;
+  padding: 10px 30px;
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.3;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+
+  color: #fff;
+  border-color: #000000;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:disabled {
+  background-color: #0cf30c;
+}
+button:not(:last-child) {
+  margin-right: 30px;
+}
+
+.start-btn {
+  background-color: #0a47f0;
+}
+
+.stop-btn {
+  background-color: #eb0c38;
+}
